@@ -1,0 +1,168 @@
+{
+  "src/lib/components/Cascader.react.js": {
+    "description": "Cascader is a component that creates a dropdown select in form of cascade.\nIt takes a property, `data`\nIt renders the data and the value selected is returned by the property `value`",
+    "displayName": "Cascader",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": true,
+        "description": "Data that will be used in the component."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value displayed capture by the component.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The height of the Dropdown.",
+        "defaultValue": {
+          "value": "320",
+          "computed": false
+        }
+      },
+      "menuHeight": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The height of the menu.",
+        "defaultValue": {
+          "value": "200",
+          "computed": false
+        }
+      },
+      "menuWidth": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The width of the menu.",
+        "defaultValue": {
+          "value": "156",
+          "computed": false
+        }
+      },
+      "preventOverflow": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "The prevent the overflow  of the menu.",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/MultiCascader.react.js": {
+    "description": "Cascader is a component that creates a dropdown select in form of cascade.\nIt takes a property, `data`\nIt renders the data and the value selected is returned by the property `value`",
+    "displayName": "MultiCascader",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": true,
+        "description": "Data that will be used in the component."
+      },
+      "value": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "The value displayed capture by the component.",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The height of the Dropdown.",
+        "defaultValue": {
+          "value": "320",
+          "computed": false
+        }
+      },
+      "menuHeight": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The height of the menu.",
+        "defaultValue": {
+          "value": "200",
+          "computed": false
+        }
+      },
+      "menuWidth": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The width of the menu.",
+        "defaultValue": {
+          "value": "156",
+          "computed": false
+        }
+      },
+      "preventOverflow": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "The prevent the overflow  of the menu.",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
